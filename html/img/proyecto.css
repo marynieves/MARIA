@@ -1,0 +1,184 @@
+*{
+    
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+:root{
+    scroll-behavior: smooth;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html{
+
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.contenedor{
+    width: 90%;
+    height: 10%;
+    
+    margin: auto;
+    padding: 50px 0;
+}
+.contenedor head{
+    background-color: white;
+}
+.header{
+    font-family: 'Open Sans', sans-serif;
+    height: 80vh;
+    width: 100vw;
+    background: url(/html/img/Tecnologia.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left;
+    font-size: larger;
+    background-color:black;
+    
+   
+}
+.head{
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:normal ;
+    flex-direction:row;
+    color: white;
+
+
+
+}
+.menu-navegacion{
+    position: fixed;
+    top:0;
+    right: 0;
+    width: 200vw;
+    height: 10vh;
+    display:flex;
+    flex-direction:unset;
+    justify-content: right;
+    align-items: center;
+    background-color:white;
+    font-size: #000000dc;
+    padding-left: 10px;
+    box-shadow: 0 0 6px rgba(109, 98, 98, 0.5);
+    padding: 0%;
+    
+
+    
+}
+.n-service {
+    font-size: 30px;
+    display: inline-block;
+    text-align: left;
+}
+.casco-servicio p{
+    
+    width: 100px;
+    height: 150px;
+    box-sizing:border-box ;
+
+}
+
+.contenedor-servicio p
+{
+    padding-top: 0px;
+    text-align: left;
+    margin-top: 8px;
+    font-size: 16px;
+    display: inline;  
+
+}
+#img1{
+    float: right;
+    margin:1px 30px 0;
+    width: 400px;
+    border: 20px;
+    padding: 10px;
+    
+}
+#img2{
+    float: right;
+    margin: 2px 500px;
+}
+#img3{
+    float: left;
+    margin: 40px 10px;
+
+}
+.celular-apple{
+    display:inline-block
+}
+.casco-servicio{
+    display: inline-block;
+}
+.compu-celu{
+    display: inline-block;
+}
+footer{
+    color: black;
+    background-color: antiquewhite;
+    padding:0;
+
+};
+.baner{
+    display: inline-block;
+    padding-bottom: 1px;
+    
+}
+
+.home{
+    display: inline-block;
+    font-size: small;
+    padding-inline-start: 10px;
+    list-style:none ;
+    border-bottom: #b91c1cdc;
+}
+.Somos{
+    display:inline-block ;
+    font-size: small;
+    padding-left: 40px;
+}
+.productos{
+    display: inline-block;
+    font-size: small;
+    padding-left: 30px;
+}
+.img4{
+    margin-left: 20%;
+}
+.family{
+    font-size:x-large;
+    margin-left: 30%;
+}
+.family1{
+    margin: 10px 0px;
+}
+.family3{
+    margin: 10px 30px;
+}
+.lista{
+    font-size:large;
+    margin: 10px;
+    display:inline-block;
+    list-style: none;
+
+
+
+}
+.autores1{
+    display: block;
+    list-style:none;
+    
+}
+.social-media{
+    align-items: center;
+    
+    
+}
